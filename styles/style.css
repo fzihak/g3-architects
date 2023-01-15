@@ -1,0 +1,283 @@
+/*-- Foysal Zihak--*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.second-color{
+    color: #797878
+}
+
+.primary-color{
+    color: #f38406
+}
+
+/* -- import fonts -- */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+
+/* --Header Section Style-- */
+.header-container{
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 143, 14, 0.1);
+}
+.header-section{
+    width: 80%;
+}
+
+.logo-name{
+    font-size: 45px;
+    font-weight: 700;
+    color: #171717;
+}
+.nav-ber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.menus{
+    display: flex;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #545454;
+}
+.menu .menu-name{
+    margin-right: 40px;
+}
+
+.header-section-container{
+    text-align: center;
+}
+
+.header-title{
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+    padding-top: 80px;
+}
+
+.header-description{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.button-primary{
+    padding: 20px 25px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.header-banner img{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+/* ------------Quick list of Our Features---------------- */
+
+.features-main-container{
+    display: flex;
+    justify-content: center;
+}
+.main-section{
+    width: 76%;
+}
+
+.features-container{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding-top: 85px;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.images img{
+    width: 240px;
+    height: 240px;
+}
+
+.feature-title{
+    font-size: 45px;
+    font-weight: 500;
+    color: #131313;
+}
+
+.feature-description{
+    color: #727272;
+    padding: 24px 0;
+}
+
+/*--------------- main-container-section style ----------------*/
+
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+.main-container-section{
+    width: 80%;
+}
+
+.love-enjoy-container{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 120px;
+}
+
+.right-love{
+    padding: 20px 0;
+}
+
+.left-image img{
+    width: 100%;
+}
+
+.love-enjoy-title{
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 4px solid #FF900E;
+    padding-left: 20px;
+}
+
+.love-enjoy-description{
+    padding: 20px 0;
+}
+
+.sub-title-box{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.left-box{
+    padding-top: 16px;
+}
+
+.love-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+}
+
+.sub-title-des{
+    font-size: 16px;
+    padding-top: 10px;
+    color: #727272;
+}
+
+/*--------------------- Experience Button Style--------------------*/
+
+.year-button{
+    margin-left: 48%;
+    margin-top: -100px;
+}
+
+.experience-button{
+    padding: 45px 42px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 10px;
+}
+
+.experience-title{
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.experience-description{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* --------------------Some Facts Style---------------- */
+
+.facts-section{
+    margin-top: 80px;
+}
+
+.facts-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.winning-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+}
+
+.win-box{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 50px 60px;
+    border: 1px solid #a839f1;
+    border-radius: 10px;
+}
+
+.win-box {
+    background: linear-gradient(#c53de0 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+    transition: 0.4s, background-position 0s;
+  }
+.win-box:hover {
+    --p: 100%;
+    color: #fff;
+  }
+
+  /* --Our Sponsors Style-- */
+
+.sponsors{
+    text-align: center;
+}
+
+.sponsors-title{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+.description{
+    color: #727272;
+}
+
+.sponsors-logo{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 80px;
+    opacity: 75%;
+}
+
+/* --Footer Style-- */
+
+footer{
+    padding: 20px 0;
+    background-color: #fdf6ee;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #373737;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
